@@ -2,38 +2,37 @@
 
 An AI-powered job search companion that helps candidates track applications, optimize resumes with ATS scoring, auto-generate tailored cover letters, and get interview prep coaching — all in one place.
 
-![HireTrack AI Preview](https://via.placeholder.com/1200x600/0f172a/8b5cf6?text=HireTrack+AI)
 
-## ✨ Features
+## Features
 
-### 📄 AI Resume Builder
+### AI Resume Builder
 - **ATS Score Checker** — Analyze resume against job description, score 0-100
 - **Keyword Gap Analysis** — Identify missing keywords from job descriptions
 - **One-click Optimization** — GPT rewrites resume bullets to match job requirements
 - **Multiple Formats** — Export to PDF, Word, or JSON Resume standard
 - **Version Control** — Keep tailored resume versions per company
 
-### 🗂 Application Tracker
+### Application Tracker
 - **Kanban Pipeline** — Track jobs: Saved → Applied → Phone Screen → Interview → Offer → Rejected
 - **Job Scraper** — Paste any LinkedIn/Indeed/Naukri URL to auto-fill job details
 - **Smart Reminders** — Follow-up reminders, interview countdowns
 - **Salary Insights** — Market salary data from aggregated sources
 - **Notes & Documents** — Attach notes, contacts, and files per application
 
-### 🤖 AI Career Assistant
+### AI Career Assistant
 - **Cover Letter Generator** — Tailored cover letter per job in seconds
 - **Interview Coach** — Practice answers to likely interview questions
 - **Cold Email Writer** — Personalized recruiter outreach emails
 - **Job Match Score** — AI scores how well your profile fits a job (0-100%)
 - **Career Path Analysis** — Suggest roles and skills to grow towards
 
-### 📊 Analytics
+### Analytics
 - **Application Funnel** — Response rate, interview rate, offer rate
 - **Salary Negotiation Tracker** — Record offers and counteroffers
 - **Weekly Goals** — Set and track applications-per-week targets
 - **Job Market Heatmap** — See where demand is highest for your skills
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -47,7 +46,7 @@ An AI-powered job search companion that helps candidates track applications, opt
 | Charts | Recharts |
 | Deployment | Vercel |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/
@@ -86,7 +85,7 @@ An AI-powered job search companion that helps candidates track applications, opt
     └── User.ts
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/sandeep-dev/hiretrack-ai.git
@@ -96,7 +95,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-## 🧠 ATS Score Algorithm
+## ATS Score Algorithm
 
 The ATS analyzer compares your resume against job descriptions using:
 
@@ -116,7 +115,7 @@ Suggestions:
   • Add "TypeScript" to skills (mentioned 5x in JD)
 ```
 
-## 🔄 Cover Letter Generation
+## Cover Letter Generation
 
 ```typescript
 // POST /api/ai/cover-letter
@@ -132,6 +131,6 @@ Suggestions:
 "Dear Hiring Manager at Stripe..."
 ```
 
-## 📄 License
+## License
 
 MIT License
